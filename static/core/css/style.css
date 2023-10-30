@@ -4142,10 +4142,12 @@ Cart Area CSS
 
 .cart-table table tbody tr td.product-subtotal .remove {
   color: red;
-  float: right;
-  position: relative;
-  top: -1px;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.cart-table table tbody tr td.product-subtotal .add {
+  color: teal;
+  font-size: 20px;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter {
